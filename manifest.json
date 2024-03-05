@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Close Search Tabs",
-     "description": "Closes all Google Search tabs when clicked to free up tabs and save your sanity.",
-  "short_name":"SearchBGon",
-  "author": "Tai Groot",
-  "version": "3.0.1",
+  "name": "Close Domain's Tabs",
+     "description": "Closes all tabs whose domain matches the active tab's",
+  "short_name":"TabsBGon",
+  "author": "Calum Rowan",
+  "version": "1.0.0",
   "browser_action": {
     "default_icon": "static/icon.png"
   },
@@ -20,7 +20,7 @@
   "commands":{
 	"_execute_browser_action":{
 		"suggested_key":{
-			"default": "Ctrl+Shift+Z"
+			"default": "Ctrl+Shift+X"
 		}
 	}
   },
