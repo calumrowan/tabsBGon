@@ -15,14 +15,15 @@
   },
   "permissions": [
     "tabs",
-    "<all_urls>"
+    "<all_urls>",
+    "commands"
   ],
   "commands":{
-	"_execute_browser_action":{
+	 "_execute_browser_action":{
 		"suggested_key":{
 			"default": "Ctrl+Shift+X"
 		}
-	}
+	 }
   },
   "icons": {
     "16": "static/icon-16.png",
